@@ -1,6 +1,6 @@
 HELP.md
 target/
-src/main/resources/application.properties
+!.src/main/resources/application.properties
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
@@ -16,3 +16,4 @@ src/main/resources/application.properties
 
 ### VS Code ###
 .vscode/
+.attach_pid8488
