@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RepositoryRestResource(collectionResourceRel = "blogs", path = "blogs")
 @CrossOrigin(origins = "http://localhost:3000")
-public interface TravellerBackEndController extends MongoRepository<Blog, String> {
+public interface BlogController extends MongoRepository<Blog, String> {
 
     List<Blog> findByUserName(@Param("userName") String userName);
 

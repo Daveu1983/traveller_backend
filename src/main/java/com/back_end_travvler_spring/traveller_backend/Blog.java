@@ -5,7 +5,6 @@ import org.springframework.data.annotation.Id;
 public class Blog {
 
     @Id private String id;
-
     private String userName;
     private String country;
     private String city;
