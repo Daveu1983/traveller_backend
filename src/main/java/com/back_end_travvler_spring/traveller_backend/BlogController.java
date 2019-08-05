@@ -13,4 +13,7 @@ public interface BlogController extends MongoRepository<Blog, String> {
 
     List<Blog> findByUserName(@Param("userName") String userName);
 
+    List<Blog> findByCountry(@Param("country") String country);
+
+
     }
